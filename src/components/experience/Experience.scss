@@ -23,7 +23,6 @@
   background-color: #4EE1A0;
   color: #292929;
   padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
 }
 
 .slider-container {
@@ -136,6 +135,31 @@
   text-transform: uppercase;
   list-style: none;
   gap: .5rem;
+}
+
+.contact-me {
+  animation: appearing 3s ease-in-out 0s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    font-size: 18px;
+    padding: .8rem 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    color: var(--dt-text);
+    border-bottom: 1px solid var(--dt-decoration);
+    transition: all .3s;
+    cursor: pointer;
+    &:hover {
+      color: var(--dt-decoration);
+      border-bottom: 1px solid var(--dt-text);
+      animation: selected .5s ease-in-out 0s initial backwards;
+    }
+  }
 }
 
 @media screen and (max-width: 1080px) {

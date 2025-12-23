@@ -9,15 +9,15 @@ const Technologies: React.FC = () => {
       <img className="rings" src={RingsRight} alt="Rings" />
       <div className='element movement'>
         <h1>HTML</h1>
-        <p>4 Years Experience</p>
+        <p>5 Years Experience</p>
       </div>
       <div className='element movement'>
         <h1>CSS</h1>
-        <p>4 Years Experience</p>
+        <p>5 Years Experience</p>
       </div>
       <div className='element movement'>
         <h1>Node</h1>
-        <p>3 Years Experience</p>
+        <p>5 Years Experience</p>
       </div>
       <div className='element movement'>
         <h1>Angular</h1>
@@ -25,7 +25,7 @@ const Technologies: React.FC = () => {
       </div>
       <div className='element movement'>
         <h1>React</h1>
-        <p>2 Years Experience</p>
+        <p>3 Years Experience</p>
       </div>
       <div className='element movement'>
         <h1>SQL</h1>
@@ -41,7 +41,7 @@ const Technologies: React.FC = () => {
       </div>
       <div className='element movement'>
         <h1>Nest</h1>
-        <p>1 Year Experience</p>
+        <p>3 Years Experience</p>
       </div>
     </section>
   );

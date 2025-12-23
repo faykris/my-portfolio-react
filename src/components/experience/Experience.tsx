@@ -63,7 +63,7 @@ const Experience: React.FC = () => {
             <span>Van Mar International</span>
           </h3>
           <p>
-            For this cargo logistics company, I was responsible for the development from scratch of the website and internal CRM, including a API that uses GraphQL to get the data from the company.
+            For this cargo logistics company, I was responsible for the development from scratch of the website and internal CRM, including an API that uses GraphQL to get the data from the company.
           </p>
           <div className="slider-container movement">
             <div className="slider">
@@ -106,6 +106,12 @@ const Experience: React.FC = () => {
             <li>Amplify</li>
             <li>Themed</li>
           </ul>
+          <div className="contact-me">
+            <button onClick={() => window.open('https://www.vanmarinternational.com', '_blank')}>
+              View Landing Page
+            </button>
+          </div>
+          
         </TabPanel>
         <TabPanel>
           <h3>
@@ -114,7 +120,6 @@ const Experience: React.FC = () => {
           <p>
             In this company, I was responsible for many solutions in different projects related to insurance and financial services.
           </p>
-
           <div className="slider-container movement">
             <div className="slider">
               <div
@@ -143,6 +148,7 @@ const Experience: React.FC = () => {
             <li>Vue</li>
             <li>Quasar</li>
             <li>Java</li>
+            <li>TypeScript</li>
             <li>Spring Boot</li>
             <li>PostgreSQL</li>
           </ul>
