@@ -48,7 +48,7 @@ const Experience: React.FC = () => {
       <Tabs selectedIndex={selectedTabIndex} onSelect={(index) => setSelectedTabIndex(index)}>
         <TabList>
           <Tab style={{ position: 'relative' }}>Van Mar
-          <div style={{ position: 'absolute', top: -15, right: 2, fontSize: '10px', backgroundColor: '#4EE1A0', color: '#292929', padding: '0.2rem 0.5rem', borderRadius: '0.5rem', zIndex: 100 }}>
+          <div style={{ position: 'absolute', top: -15, right: 2, fontSize: '10px', backgroundColor: '#4EE1A0', color: '#292929', padding: '0.2rem 0.5rem', zIndex: 100 }}>
             <span>LAST</span>
           </div>
           </Tab>
