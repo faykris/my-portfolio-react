@@ -56,10 +56,7 @@ const Experience: React.FC = () => {
           <Tab>G Lab</Tab>
         </TabList>
         <TabPanel style={{ position: 'relative' }}>
-          <div className="new-experience" style={{ position: 'absolute', top: 0, right: 0 }}>
-            <span>LAST</span>
-          </div>
-          <h3>
+          <h3 style={{ marginBottom: 8 }}>
             <span>Van Mar International</span>
           </h3>
           <p>
@@ -114,7 +111,7 @@ const Experience: React.FC = () => {
           
         </TabPanel>
         <TabPanel>
-          <h3>
+          <h3 style={{ marginBottom: 8 }}>
             <span>LinkTIC</span>
           </h3>
           <p>
@@ -154,7 +151,7 @@ const Experience: React.FC = () => {
           </ul>
         </TabPanel>
         <TabPanel>
-          <h3>
+          <h3 style={{ marginBottom: 8 }}>
             <span>G Lab</span>
           </h3>
           <p>
